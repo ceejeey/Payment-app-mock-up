@@ -7,7 +7,6 @@ export const Container = style ({
 })
 
 export const Wrap = style ({
-    margin:'calc((100% - 240px)/10)',
     display: 'flex',
     justifyContent: 'center',
     alignContent: 'center',
