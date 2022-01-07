@@ -3,7 +3,8 @@ import { style } from '@vanilla-extract/css';
 export const Container = style({
 
     height: '60px',
-    width: '320px',
+    width: '100%',
+  
   
   
     
@@ -13,17 +14,17 @@ export const MenuWrapper = style({
   
     objectFit: 'cover',
     height: '60px',
-    width: '320px',
+    width: '100%',
     position: 'fixed',
     bottom: '10px',
-    zIndex: '2'
+    zIndex: '2',
    
 });
 
 export const IconContainer = style({
   
     height: '55px',
-    width: '320px',
+    width: '100%',
     zIndex: '11',
     position: 'fixed',
     bottom: '0',

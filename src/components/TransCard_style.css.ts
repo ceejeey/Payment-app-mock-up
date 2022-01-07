@@ -79,10 +79,8 @@ export const DateWrapper= style({
 });
 
 export const AmountWrapper= style({
-    width:'40%',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent:'flex-end',
+    flex:'1',
+    textAlign: 'right',
     fontFamily:'sarabun',
     fontSize:'16px',
     fontWeight: '600',
